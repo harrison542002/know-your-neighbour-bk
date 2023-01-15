@@ -1,8 +1,9 @@
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/kn
     username: root
-    password: harris542002##
+    password: password
   jpa:
     show-sql: true
     hibernate:
@@ -13,14 +14,14 @@ spring:
       client:
         registration:
           google:
-            client-id: 273515586173-6eih2pbj7dnm8p34e3ugfe1k49to3n7m.apps.googleusercontent.com
-            client-secret: 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
+            client-id: google-client-id
+            client-secret: google-client-secrete
             scope:
               - email
               - profile
           facebook:
-            client-id: 721789279508498
-            client-secret: 6bfdb07c8af40db3db669470b595d37f
+            client-id: facebook-client-id
+            client-secret: facebook-client-secrete
             scope:
                 - email
                 - public_profile
